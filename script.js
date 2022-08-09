@@ -6,7 +6,6 @@ const Overall = new Chart(ctx, {
     data: {
         labels: ['Linkedin','Twitter','Task on Time','Task Evaluation','Road Map','Projects','Refering Friend','Internship','Certificate','Experience'],
         datasets: [{
-            label: '# of Votes',
             data: [40,70,20,10,70,20,75,20,30,5],
             backgroundColor: [
                 'rgba(49, 156, 234, 1)',
@@ -24,12 +23,13 @@ const Overall = new Chart(ctx, {
         }]
     },
     options: {
-        radius: 200,
+        radius: 150,
         cutout: 140,
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             legend: {
                 position: 'right',
-
             }
         }
     }
@@ -40,7 +40,7 @@ const Monthwise = new Chart(chartjs, {
     data: {
         labels: ['Linkedin','Twitter','Task on Time','Task Evaluation','Road Map','Projects','Refering Friend','Internship','Certificate','Experience'],
         datasets: [{
-            label: '# of Votes',
+            
             data: [40,70,20,10,70,20,75,20,30,5],
             backgroundColor: [
                 'rgba(49, 156, 234, 1)',
@@ -58,8 +58,10 @@ const Monthwise = new Chart(chartjs, {
         }]
     },
     options: {
-        radius: 200,
+        radius: 150,
         cutout: 140,
+        responsive: true,
+        maintainAspectRatio: false,
         plugins: {
             legend: {
                 position: 'right',

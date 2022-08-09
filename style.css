@@ -1,15 +1,17 @@
 * {
     margin: 0;
     padding: 0;
+    
   }
   .container{
-  height: auto;
-  width: auto;
+  height: 140vh;
+  width: 700px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   margin: 0 auto;
+  border: 1px solid white;
   background-color: #f6f6f6;
 }
 .logo{
@@ -34,10 +36,10 @@
 .box-1, .box-2{
   width: 600px;
   height: 400px;
-  padding-bottom: 200px;
+  border: 30px;
+  padding-bottom: 40px;
   border: 1px solid white;
-  background-color: white;
-  
+  background-color: white ;
 }
 .regards{
   padding-right: 450px;
@@ -46,20 +48,17 @@
   font-size: 15px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 578px){
   *{
     font-family: 'Inter', sans-serif;
     padding: 0;
     margin: 0;
   }
   .container{
-    padding: auto;
+   height: 100vh;
   }
-  .logo{
-    padding-top: 150px;
-  }
-  .hi{
-    font-size: 14px;
-    padding-left: 0%;
+  .box-1,.box-2{
+    width: 95%;
+    height: auto;
   }
 }
