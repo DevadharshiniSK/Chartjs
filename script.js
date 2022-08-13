@@ -25,8 +25,6 @@ const Overall = new Chart(ctx, {
     options: {
         radius: 150,
         cutout: 140,
-        responsive: true,
-        maintainAspectRatio: false,
         plugins: {
             legend: {
                 position: 'right',
@@ -60,8 +58,6 @@ const Monthwise = new Chart(chartjs, {
     options: {
         radius: 150,
         cutout: 140,
-        responsive: true,
-        maintainAspectRatio: false,
         plugins: {
             legend: {
                 position: 'right',
