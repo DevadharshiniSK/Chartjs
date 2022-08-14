@@ -1,34 +1,43 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <link rel="stylesheet" href="style.css">
-       <title>ChartJS|Doughnut</title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotknack|Chartjs</title>
 
-    <body>
-        <div class="container">
-            <div class="logo">
-                <img src="favicon.PNG" alt="">
-            </div>
-            <article>
-            <div class="hi">Hi Harsha,<br>
-                &emsp;<p id="p1">
-                Please find your overall and monthly coin transaction analysis and report.</p></div><br>
+   
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <img src="favicon.PNG" alt="">
+    </div>
+    
+    <div class="hi">Hi Harsha,<br>
+        &emsp;<p id="p1">
+        Please find your overall and monthly coin transaction analysis and report.</p>
+    </div>
+  <div class="chartCard-1">
+    <div class="chartBox-1">
+      <p class="p2"><b>Overall</b></p>
+      <canvas id="Overall"></canvas>
+    </div>
+  </div>
+  <div class="chartCard-2">
+    <div class="chartBox-2">
+      <p class="p2"><b>Last Month - June</b></p>
+      <canvas id="Monthwise"><b>Last Month-June</b></canvas>
+    </div>
+  </div>
+
+  <div class="regards"><b>Regards<br>Team Spotknack</b></div>
             
-            <div class="box-1" >
-                <p class="p2"><b>Overall</b></p>
-               <canvas id="Overall" width="600" height="250"></canvas>
-            </div><br>
-            <div class="box-2">
-                <p class="p2"><b>Last Month - June</b></p>
-               <canvas id="Monthwise"><b>Last Month-June</b></canvas>
-            </div>
-        </article>
-            <br>
-            <span class="regards"><b>Regards<br>Team Spotknack</b></span>
-            
-        </div>
-        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <script src="script.js"></script>
-    </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+    
+    
+</body>
 </html>
