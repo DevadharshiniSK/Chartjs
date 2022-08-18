@@ -20,15 +20,16 @@ const data = {
   };
 
   const config = {
-    type: 'bar',
+    type: 'doughnut',
     data,
     options: {
      maintainAspectRatio: false,
-      scales: {
-        y: {
-          beginAtZero: true
-        }
+     plugins: {
+      legend: {
+          position: 'right',
       }
+  }
+    
     }
   };
 
@@ -57,15 +58,15 @@ const Month = {
 };
 
 const config1 = {
-  type: 'bar',
+  type: 'doughnut',
   data,
   options: {
    maintainAspectRatio: false,
-    scales: {
-      y: {
-        beginAtZero: true
-      }
+   plugins: {
+    legend: {
+        position: 'right',
     }
+}
   }
 };
 
