@@ -1,6 +1,6 @@
 //chart-1
 const data = {
-    labels: ['Linkedin','Twitter','Task on Time','Task Evaluation','Road Map','Projects','Refering Friend','Internship','Certificate','Experience'],
+    labels: ['C','C++','JAVA','PYTHON','JAVASCRIPT','PHP','C#','HTML','CSS','KOTLIN'],
     datasets: [{
       data: [40,70,20,10,70,20,75,20,30,5],
       backgroundColor: [
@@ -38,7 +38,7 @@ const myChart = new Chart(document.getElementById('Overall'),config );
 
 //chart-2
 const Month = {
-  labels: ['Linkedin','Twitter','Task on Time','Task Evaluation','Road Map','Projects','Refering Friend','Internship','Certificate','Experience'],
+  labels:  ['C','C++','JAVA','PYTHON','JAVASCRIPT','PHP','C#','HTML','CSS','KOTLIN'],
   datasets: [{
     data: [40,70,20,10,70,20,75,20,30,5],
     backgroundColor: [
